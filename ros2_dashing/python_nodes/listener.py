@@ -35,42 +35,36 @@ class Listener(Node):
         	stop()
 
         elif msg.data==1:
-        	#kit = ServoKit(channels=16)
         	kit.servo[0].angle=45
         	stop()
         	forward()
         	stop()
 
         elif msg.data==2:
-        	#kit = ServoKit(channels=16)
         	kit.servo[0].angle=60
         	stop()
         	forward()
         	stop()
 
         elif msg.data==3:
-        	#kit = ServoKit(channels=16)
         	kit.servo[0].angle=90
         	stop()
         	forward()
         	stop()
 
         elif msg.data==4:
-        	#kit = ServoKit(channels=16)
         	kit.servo[0].angle=120
         	stop()
         	forward()
         	stop()
 
         elif msg.data==5:
-        	#kit = ServoKit(channels=16)
         	kit.servo[0].angle=135
         	stop()
         	forward()
         	stop()
 
         elif msg.data==6:
-        	#kit = ServoKit(channels=16)
         	kit.servo[0].angle=150
         	stop()
         	forward()
