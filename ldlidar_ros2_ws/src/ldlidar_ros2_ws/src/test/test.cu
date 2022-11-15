@@ -67,8 +67,6 @@ __global__ void find_maximum_kernel(float *angle, float *max, int *mutex, unsign
 			*ans = i;
 		}
 	}
-
-  // *max 為最大值結果
 }
 */
 
